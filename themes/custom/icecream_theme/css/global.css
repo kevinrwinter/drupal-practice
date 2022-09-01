@@ -1,0 +1,40 @@
+h1 {
+  color: magenta;
+}
+#header {
+  padding: 60px;
+  text-align: center;
+  background-color: #1abc9c;
+  color: #f4f4f4;
+  font-size: 30px;
+}
+#content {
+  padding-bottom: 50px;
+}
+#footer {
+  padding: 60px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  font-size: 30px;
+}
+
+h2 {
+  color: goldenrod;
+}
+
+body {
+  background-color: #9584a5;
+  color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  font-size: 1rem;
+  color: #025151;
+}
+
+#block-mainpagecontent {
+  color: crimson;
+  font-size: 48px;
+}

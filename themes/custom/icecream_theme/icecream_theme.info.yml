@@ -1,0 +1,19 @@
+name: Icecream theme
+type: theme
+# base theme: stable
+base theme: false
+description: A very basic theme created for learning Drupal
+core_version_requirement: ^8 || ^9
+# serVer
+version: 1.0.0
+
+libraries:
+  - icecream_theme/global
+
+regions:
+  header: header
+  menu: menu
+  content: content
+  sidebar: sidebar
+  footer: footer
+  # menu: menu
