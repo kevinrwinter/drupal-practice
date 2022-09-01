@@ -61,3 +61,9 @@ lando drush en webprofiler
 ```
 lando drush en devel
 ```
+
+---
+
+```
+lando drush en devel_generate
+```
