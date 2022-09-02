@@ -64,6 +64,14 @@ lando drush en devel
 
 ---
 
+### Dummy content
+
 ```
 lando drush en devel_generate
+```
+
+https://www.drupal.org/project/realistic_dummy_content
+
+```
+lando composer require 'drupal/realistic_dummy_content:^3.1'
 ```
