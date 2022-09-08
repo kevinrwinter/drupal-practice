@@ -64,6 +64,8 @@ lando drush en devel
 
 ---
 
+1-2.9.22
+
 ### Dummy content
 
 ```
@@ -74,4 +76,16 @@ https://www.drupal.org/project/realistic_dummy_content
 
 ```
 lando composer require 'drupal/realistic_dummy_content:^3.1'
+```
+
+---
+
+8-9.9.22
+
+```
+npm install --save react react-dom prop-types
+```
+
+```
+npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli
 ```
