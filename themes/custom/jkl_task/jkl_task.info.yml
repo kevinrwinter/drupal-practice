@@ -1,0 +1,8 @@
+name: JKL task theme
+type: theme
+description: Group task for React and Drupal
+base theme: olivero
+core_version_requirement: ^9
+
+libraries:
+  - jkl_task/react_app
