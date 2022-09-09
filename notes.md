@@ -94,10 +94,22 @@ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-l
 
 9.9.22
 
+# config settings
+
 ```
 lando drush cex
 ```
 
 ```
 lando drush cset system.site slogan 'Awesome platform'
+```
+
+# offer module
+
+```
+lando drush drupal generate:form:config --uri=mysite.local
+```
+
+```
+lando drush en offer -y
 ```
