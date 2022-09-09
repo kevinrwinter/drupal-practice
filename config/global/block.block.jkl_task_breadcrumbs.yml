@@ -1,0 +1,22 @@
+uuid: 315192a6-9535-4339-99ae-0e845846afe8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jkl_task
+_core:
+  default_config_hash: cL11xuvgbDwRtGEQLBQ0vuywqHSwOo9oXtztdmgiTfk
+id: jkl_task_breadcrumbs
+theme: jkl_task
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

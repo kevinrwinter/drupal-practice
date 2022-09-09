@@ -1,0 +1,22 @@
+uuid: d70621e8-5a91-4e29-a169-a56c56eb6a6b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: react_drupal_primary_local_tasks
+theme: react_drupal
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: c9337ece-dc02-4b9a-a5d9-553e5f3f1e27
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - icecream_theme
+id: help
+theme: icecream_theme
+region: menu
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: visible
+  provider: help
+visibility: {  }

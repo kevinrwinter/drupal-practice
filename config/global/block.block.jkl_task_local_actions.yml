@@ -1,0 +1,20 @@
+uuid: 08c98895-c8d6-4022-a124-8f1f25aeb27c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jkl_task
+_core:
+  default_config_hash: O-oSwMAtp65xes7Nbp2cnZEx2azaMpuSPowOKbjigcc
+id: jkl_task_local_actions
+theme: jkl_task
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

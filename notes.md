@@ -80,7 +80,7 @@ lando composer require 'drupal/realistic_dummy_content:^3.1'
 
 ---
 
-8-9.9.22
+8.9.22
 
 ```
 npm install --save react react-dom prop-types
@@ -88,4 +88,16 @@ npm install --save react react-dom prop-types
 
 ```
 npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli
+```
+
+---
+
+9.9.22
+
+```
+lando drush cex
+```
+
+```
+lando drush cset system.site slogan 'Awesome platform'
 ```

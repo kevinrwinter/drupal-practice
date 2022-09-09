@@ -1,0 +1,22 @@
+uuid: c466c01e-8e79-4b0e-b0c7-3a9adb3e882a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jkl_task
+_core:
+  default_config_hash: jRybYmcmTQ6xIX-OJZ0DhDtRCdrtGsC0CHaNfwfvgFQ
+id: jkl_task_messages
+theme: jkl_task
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

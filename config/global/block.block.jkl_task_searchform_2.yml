@@ -1,0 +1,23 @@
+uuid: ba10f167-71c4-442b-b8eb-46ec42009ab6
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - jkl_task
+_core:
+  default_config_hash: H4fy02EjLoQ5iUOTd1faLDGjDA-fRuHMMevrKnv9Pdo
+id: jkl_task_searchform_2
+theme: jkl_task
+region: sidebar_first
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: c496410c-c048-421e-bc85-30b6269354a0
+langcode: en
+status: false
+dependencies:
+  theme:
+    - icecream_theme
+id: pagetitle
+theme: icecream_theme
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title is experiment'
+  label_display: '0'
+  provider: core
+visibility: {  }

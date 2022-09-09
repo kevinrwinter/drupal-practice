@@ -1,0 +1,25 @@
+uuid: d875c77c-7b6c-490a-8c6c-9b085693f537
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5d08583b-cdfd-470b-a63d-d8a7535aa610'
+  module:
+    - block_content
+  theme:
+    - jkl_task
+id: drupalisfun_4
+theme: jkl_task
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:5d08583b-cdfd-470b-a63d-d8a7535aa610'
+settings:
+  id: 'block_content:5d08583b-cdfd-470b-a63d-d8a7535aa610'
+  label: 'Drupal is fun'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

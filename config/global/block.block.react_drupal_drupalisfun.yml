@@ -1,0 +1,25 @@
+uuid: df037189-b55b-45e6-86e6-f511a660b0ca
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:5d08583b-cdfd-470b-a63d-d8a7535aa610'
+  module:
+    - block_content
+  theme:
+    - react_drupal
+id: react_drupal_drupalisfun
+theme: react_drupal
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:5d08583b-cdfd-470b-a63d-d8a7535aa610'
+settings:
+  id: 'block_content:5d08583b-cdfd-470b-a63d-d8a7535aa610'
+  label: 'Drupal is fun'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

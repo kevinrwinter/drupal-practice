@@ -1,0 +1,22 @@
+uuid: dfd0ff9d-1a56-45e4-9e24-76c015465308
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: react_drupal_powered
+theme: react_drupal
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'This is footer: powered by Drupal'
+  label_display: visible
+  provider: system
+visibility: {  }

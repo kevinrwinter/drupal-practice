@@ -805,5 +805,6 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_JotK3qGrwOiio9x-ceOJmLMwb1nFD_GinNly7pqMUMLnJ54sUF9gNp-5qHXOjVYIjZKqLtjnMg/sync';
+// $settings['config_sync_directory'] = 'sites/default/files/config_JotK3qGrwOiio9x-ceOJmLMwb1nFD_GinNly7pqMUMLnJ54sUF9gNp-5qHXOjVYIjZKqLtjnMg/sync';
+$settings['config_sync_directory'] = './config/global';
 $config['system.logging']['error_level'] = 'verbose';

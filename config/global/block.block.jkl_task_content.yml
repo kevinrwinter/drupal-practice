@@ -1,0 +1,22 @@
+uuid: 36adc2ca-c222-430b-bcb2-c5e6bfaab804
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jkl_task
+_core:
+  default_config_hash: 7W5m1cGZjEB4_o0Di0lrmtWuUx1Wft0TuAVyUSgPUwQ
+id: jkl_task_content
+theme: jkl_task
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

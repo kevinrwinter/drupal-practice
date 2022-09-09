@@ -1,0 +1,22 @@
+uuid: 6db4e4a8-f773-4374-b35b-250722902b50
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - jkl_task
+_core:
+  default_config_hash: iyuQj9HP7TudJqR2BDGoGXEn16NE3m1KUtCw0N5ZTMM
+id: jkl_task_help
+theme: jkl_task
+region: content
+weight: -9
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 1562f7d7-d176-4eb2-ba80-aa7f9e98e450
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: olivero_powered
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'This is footer: powered by Drupal'
+  label_display: visible
+  provider: system
+visibility: {  }

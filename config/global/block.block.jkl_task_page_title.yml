@@ -1,0 +1,20 @@
+uuid: a86eabe0-b8c5-45a6-8770-b13c3e297244
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jkl_task
+_core:
+  default_config_hash: Jg8sbWAHmaNnulBIV3mIX9nhLlnTmVey6atMumOhqtU
+id: jkl_task_page_title
+theme: jkl_task
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
