@@ -808,3 +808,4 @@ $databases['default']['default'] = array (
 // $settings['config_sync_directory'] = 'sites/default/files/config_JotK3qGrwOiio9x-ceOJmLMwb1nFD_GinNly7pqMUMLnJ54sUF9gNp-5qHXOjVYIjZKqLtjnMg/sync';
 $settings['config_sync_directory'] = './config/global';
 $config['system.logging']['error_level'] = 'verbose';
+$settings['config_exclude_modules'] = ['devel', 'webprofiler'];
