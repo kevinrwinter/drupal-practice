@@ -94,7 +94,7 @@ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-l
 
 9.9.22
 
-# config settings
+### config settings
 
 ```
 lando drush cex
@@ -104,7 +104,7 @@ lando drush cex
 lando drush cset system.site slogan 'Awesome platform'
 ```
 
-# offer module
+### offer module
 
 ```
 lando drush drupal generate:form:config --uri=mysite.local
@@ -113,3 +113,53 @@ lando drush drupal generate:form:config --uri=mysite.local
 ```
 lando drush en offer -y
 ```
+
+---
+
+15.9.22
+
+### install REST UI
+
+```
+lando composer require 'drupal/restui:^1.21'
+```
+
+### progressively decoupled react app
+
+/react-drupal (separate repository, cf. slide slide 06 - drupal basics and [react-drupal](https://github.com/kevinrwinter/react-drupal))
+
+### create modules/my_crud
+
+custom module my_crud
+
+### generate custom theme
+
+```
+lando drush generate theme
+```
+
+cf. slide 06 - drupal basics
+
+### generate custom module
+
+```
+lando drush generate module
+```
+
+cf. slide 06 - drupal basics
+
+### database commands
+
+```
+lando mysql
+```
+
+```
+lando db-export
+```
+
+```
+lando db-import name_of_db_file.gz
+```
+
+cf. slide 06 - drupal basics
