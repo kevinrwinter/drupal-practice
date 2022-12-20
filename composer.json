@@ -24,9 +24,11 @@
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
         "drupal/devel": "^4.1",
+        "drupal/imce": "^2.4",
         "drupal/realistic_dummy_content": "^3.1",
         "drupal/restui": "^1.21",
         "drupal/tara": "^9.1",
+        "drupal/webprofiler": "^9.0",
         "drush/drush": "^11.1"
     },
     "conflict": {
